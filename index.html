@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="registration-form">
+    <form id="registrationForm">
+        <h1></h1>
+        <h2>Registration</h2>
+        <!-- Personal Details Section -->
+        <div class="section">
+            <h3>Personal Details</h3>
+            <input type="text" name="full_name" placeholder="Full Name" required>
+            <input type="date" name="dob" placeholder="Date of Birth" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="mobile_number" placeholder="Mobile Number" required>
+            <select name="gender" required>
+                <option value="" disabled selected>Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <input type="text" name="occupation" placeholder="Occupation" required>
+        </div>
+        <!-- Identity Details Section -->
+        <div class="section">
+            <h3>Identity Details</h3>
+            <select name="id_type" required>
+                <option value="" disabled selected>ID Type</option>
+                <option value="passport">Passport</option>
+                <option value="driving_license">Driving License</option>
+                <!-- Add additional options here -->
+            </select>
+            <input type="text" name="id_number" placeholder="ID Number" required>
+            <input type="text" name="issue_authority" placeholder="Issue Authority" required>
+            <input type="date" name="issue_date" placeholder="Issue Date" required>
+            <input type="text" name="issue_state" placeholder="Issue State" required>
+            <input type="date" name="expiry_date" placeholder="Expiry Date" required>
+        </div>
+        <button type="submit">Next →</button>
+    </form>
+    <div id="formDataDisplay"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
