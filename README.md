@@ -10,13 +10,6 @@ Welcome to the AI Community Registration Form project! This project is aimed at 
 - Dynamic Display: Filled information is dynamically displayed below the form, providing instant feedback to the user.
 - Styling Finesse: Stylish borders adjust dynamically, enhancing the visual appeal of the form.
 
-## Demo:
-
-
-https://github.com/Areeshanoor/Registration-Form/assets/141808936/d6901f59-f278-49ce-892c-0710eb3462a3
-
-
-
 ## How to Use:
 1. Clone the repository to your local machine.
 2. Open the index.html file in your preferred web browser.
